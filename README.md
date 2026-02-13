@@ -1,195 +1,72 @@
-<div align="center">
+# <h1 style="color: #7C3AED; font-weight: bold;" align="center">Nucleus</h1>
 
-<img src="./assets/icon.png" alt="Nucleus Logo" width="120" height="120"/>
+### _Your Solana Command Center_
 
-# `N U C L E U S`
-
-### *Your Solana Command Center*
-
-<br/>
-
-```typescript
-const nucleus = {
-  mission: "Redefining crypto portfolio management",
-  vision: "Making Solana accessible to everyone",
-  status: "Building the future ⚡"
-}
-```
-
-<br/>
+Redefining crypto portfolio management on Solana. A modern, secure, and intuitive mobile wallet built with React Native and TypeScript.
 
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Solana](https://img.shields.io/badge/Solana-14F195?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com/)
 
-<br/>
-
-**[Features](#-core-features) • [Screenshots](#-visual-journey) • [Installation](#-quick-start) • [Tech Stack](#-tech-stack)**
-
-</div>
+**[Features](#core-features) • [Screenshots](#visual-journey) • [Installation](#quick-start) • [Tech Stack](#tech-stack)**
 
 ---
 
-<div align="center">
+## Screenshots
 
-## `> VISUAL JOURNEY_`
+### 🚀 Onboarding
+<p align="center">
+  <img src="./screenshots/onboarding-screen.jpeg" width="40%" />
+</p>
 
-*Experience Nucleus in action*
+### 💼 Portfolio Dashboard
+<p align="center">
+  <img src="./screenshots/home-screen.jpeg" width="40%" />
+</p>
 
-</div>
+### 🔄 Token Swap
+<p align="center">
+  <img src="./screenshots/swap-screen.jpeg" width="40%" />
+</p>
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./screenshots/onboarding-screen.jpeg" alt="Onboarding" width="100%"/>
-      <br/>
-      <sub><b>🚀 Welcome Aboard</b></sub>
-      <br/>
-      <sub>Seamless onboarding experience</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="./screenshots/home-screen.jpeg" alt="Dashboard" width="100%"/>
-      <br/>
-      <sub><b>💼 Portfolio Hub</b></sub>
-      <br/>
-      <sub>Real-time asset tracking</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="./screenshots/swap-screen.jpeg" alt="Swap" width="100%"/>
-      <br/>
-      <sub><b>🔄 Token Swap</b></sub>
-      <br/>
-      <sub>Instant token exchanges</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="./screenshots/coins-screen.jpeg" alt="Market" width="100%"/>
-      <br/>
-      <sub><b>📊 Market Watch</b></sub>
-      <br/>
-      <sub>Live crypto prices</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="./screenshots/settings-screen.jpeg" alt="Settings" width="100%"/>
-      <br/>
-      <sub><b>⚙️ Control Center</b></sub>
-      <br/>
-      <sub>Personalized preferences</sub>
-    </td>
-    <td align="center" width="33%">
-      <br/><br/>
-      <h3>✨</h3>
-      <sub><b>More Coming Soon</b></sub>
-      <br/>
-      <sub>The future is bright</sub>
-    </td>
-  </tr>
-</table>
+### 📊 Market Watch
+<p align="center">
+  <img src="./screenshots/coins-screen.jpeg" width="40%" />
+</p>
+
+### ⚙️ Settings
+<p align="center">
+  <img src="./screenshots/settings-screen.jpeg" width="40%" />
+</p>
 
 ---
 
-<div align="center">
+## Features
 
-## `> CORE FEATURES_`
+### 🎯 Portfolio Management
+Track your entire Solana portfolio in one unified dashboard. Real-time balance updates, 24-hour performance metrics, and instant USD conversion for all your SOL and SPL tokens.
 
-</div>
+### 🔄 Token Swap
+Seamless token swaps powered by Solana's lightning-fast network. Exchange tokens with real-time rates and zero network fees. Simple, intuitive interface for instant token exchanges.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 📈 Market Intelligence
+Stay ahead with live cryptocurrency prices. Browse top tokens including BTC, ETH, SOL, and more. Powerful search functionality for quick access to any token's market data.
 
-### 🎯 **Portfolio Management**
+### 🔐 Security First
+Non-custodial architecture means your keys never leave your device. Biometric authentication (Face ID/Touch ID) and encrypted PIN protection. Your crypto, your control.
 
-```python
-portfolio = {
-  "real_time_balance": True,
-  "multi_token_support": ["SOL", "USDC", "SPL_tokens"],
-  "usd_conversion": "instant",
-  "24h_performance": "+2.4%"
-}
-```
-
-Track your entire Solana portfolio in one unified dashboard. Real-time balance updates, 24-hour performance metrics, and instant USD conversion.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔄 **Token Swap**
-
-```javascript
-const swap = {
-  from: "SOL",
-  to: "USDC",
-  rate: "1 SOL ≈ 145.20 USDC",
-  networkFee: "Free"
-}
-```
-
-Seamless token swaps powered by Solana's lightning-fast network. Exchange tokens with real-time rates and zero network fees.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📈 **Market Intelligence**
-
-```go
-type Market struct {
-    Assets     []Crypto
-    Prices     RealTime
-    Changes24h Percentage
-    Search     Enabled
-}
-```
-
-Stay ahead with live cryptocurrency prices. Browse top tokens including BTC, ETH, SOL, and more. Search functionality for quick access.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 **Security First**
-
-```rust
-struct Security {
-    mode: ViewOnly,
-    keys: NeverStored,
-    face_id: Biometric,
-    pin: Encrypted,
-    recovery: SecurePhrase
-}
-```
-
-Non-custodial architecture. Your keys never leave your device. Biometric authentication and encrypted PIN protection.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### 🎨 **Design Philosophy**
-
-| Principle | Implementation |
-|:---------:|:--------------:|
-| **Minimalist** | Clean interfaces, zero clutter |
-| **Intuitive** | Natural gestures, logical flows |
-| **Fast** | Instant feedback, smooth 60fps |
-| **Accessible** | Time-based greetings, readable typography |
-
-</div>
+### 🎨 Design Philosophy
+**Minimalist** — Clean interfaces, zero clutter
+**Intuitive** — Natural gestures, logical flows
+**Fast** — Instant feedback, smooth 60fps animations
+**Accessible** — Time-based greetings, readable typography
 
 ---
 
-<div align="center">
+## Tech Stack
 
-## `> TECH STACK_`
-
-*Built with modern technologies*
-
-</div>
+_Built with modern technologies_
 
 ```yaml
 Frontend:
@@ -217,129 +94,47 @@ UI/UX:
 
 ---
 
-<div align="center">
-
-## `> QUICK START_`
-
-</div>
-
-### Prerequisites
-
-```bash
-node --version  # v18+
-bun --version   # v1.0+ (or npm)
-```
+## Quick Start
 
 ### Installation
 
 ```bash
-# Clone the nucleus
+# Clone the repository
 git clone https://github.com/VINODvoid/nucleus.git
-
-# Enter the core
 cd nucleus
 
-# Install dependencies (choose one)
-bun install
-# or
-npm install
+# Install dependencies
+bun install  # or npm install
 
-# Launch the reactor
+# Start the development server
 bun start
+
+# Run on specific platform
+bun run ios      # 🍎 iOS
+bun run android  # 🤖 Android
+bun run web      # 🌐 Web
 ```
 
-### Platform-Specific Commands
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-**🍎 iOS**
-```bash
-bun run ios
-```
-
-</td>
-<td width="33%" align="center">
-
-**🤖 Android**
-```bash
-bun run android
-```
-
-</td>
-<td width="33%" align="center">
-
-**🌐 Web**
-```bash
-bun run web
-```
-
-</td>
-</tr>
-</table>
+### Prerequisites
+- Node.js 18+
+- Bun 1.0+ (or npm/yarn)
 
 ---
 
-<div align="center">
-
-## `> USAGE_`
-
-</div>
+## Usage
 
 ### Getting Started
 
-<table>
-<tr>
-<td width="25%">
+1. **Launch** — Open Nucleus on your device
+2. **Connect** — Paste your Solana wallet address
+3. **Explore** — View portfolio, swap tokens, track market
+4. **Customize** — Adjust settings to your preference
 
-**1️⃣ Launch**
-
-Open Nucleus on your device
-
-</td>
-<td width="25%">
-
-**2️⃣ Connect**
-
-Paste your Solana wallet address
-
-</td>
-<td width="25%">
-
-**3️⃣ Explore**
-
-View portfolio, swap tokens, track market
-
-</td>
-<td width="25%">
-
-**4️⃣ Customize**
-
-Adjust settings to your preference
-
-</td>
-</tr>
-</table>
-
-### Demo Mode
-
-```bash
-No wallet? No problem!
-┌─────────────────────────────────┐
-│  Tap "Try a demo wallet"        │
-│  Explore all features           │
-│  Zero commitment required       │
-└─────────────────────────────────┘
-```
+**No wallet?** Tap "Try a demo wallet" to explore all features with zero commitment.
 
 ---
 
-<div align="center">
-
-## `> PROJECT STRUCTURE_`
-
-</div>
+## Project Structure
 
 ```
 nucleus/
@@ -370,13 +165,9 @@ nucleus/
 
 ---
 
-<div align="center">
+## Roadmap
 
-## `> ROADMAP_`
-
-*The journey continues*
-
-</div>
+_The journey continues_
 
 <table>
 <tr>
@@ -439,77 +230,42 @@ nucleus/
 
 ---
 
-<div align="center">
+## Contributing
 
-## `> CONTRIBUTING_`
+We welcome contributions from the community!
 
-</div>
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Test thoroughly on iOS and Android
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
 
-We welcome contributions from the community! Here's how you can help:
-
-```mermaid
-graph LR
-    A[Fork] --> B[Create Branch]
-    B --> C[Make Changes]
-    C --> D[Test Thoroughly]
-    D --> E[Submit PR]
-    E --> F[Code Review]
-    F --> G[Merge]
-```
-
-### Development Guidelines
-
-<table>
-<tr>
-<td width="50%">
-
-**Code Quality**
-- ✅ Follow TypeScript best practices
-- ✅ Maintain immutability patterns
-- ✅ Write descriptive commit messages
-- ✅ Keep components under 400 lines
-
-</td>
-<td width="50%">
-
-**Testing Requirements**
-- ✅ Test on iOS and Android
-- ✅ Verify animations are smooth
-- ✅ Check accessibility features
-- ✅ Ensure responsive layouts
-
-</td>
-</tr>
-</table>
+### Guidelines
+- Follow TypeScript best practices
+- Maintain immutability patterns
+- Write descriptive commit messages
+- Keep components under 400 lines
+- Verify animations are smooth (60fps)
+- Check accessibility features
+- Ensure responsive layouts
 
 ---
 
-<div align="center">
+## Security
 
-## `> SECURITY_`
-
-</div>
-
-```typescript
-const securityModel = {
-  architecture: "Non-custodial",
-  dataStorage: "Device-only",
-  privateKeys: "Never requested or stored",
-  viewMode: "Read-only access",
-  authentication: ["Face ID", "Encrypted PIN", "Recovery Phrase"],
-  openSource: true
-}
-```
+- **Non-custodial** — Your keys, your crypto
+- **Device-only storage** — Nothing stored on servers
+- **View-only mode** — Private keys never requested or stored
+- **Biometric auth** — Face ID, Touch ID, encrypted PIN
+- **Open source** — Transparent and auditable
 
 **Found a vulnerability?** Please email security@nucleus.app instead of opening a public issue.
 
 ---
 
-<div align="center">
-
-## `> LICENSE_`
-
-</div>
+## License
 
 ```
 MIT License
@@ -527,73 +283,35 @@ See [LICENSE](LICENSE) for full details.
 
 ---
 
-<div align="center">
+## Acknowledgments
 
-## `> ACKNOWLEDGMENTS_`
+Built with amazing open-source technologies:
 
-</div>
+- **React Native** — Cross-platform mobile framework
+- **Expo** — Development platform and tooling
+- **Solana** — High-performance blockchain network
+- **TypeScript** — Type-safe JavaScript
+- **Moti** — Declarative animations
+- **Reanimated** — Smooth 60fps animations
 
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="48" height="48"/>
-<br/>
-<b>React Native</b>
-<br/>
-<sub>UI Framework</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://avatars.githubusercontent.com/u/12504344?s=200&v=4" width="48" height="48"/>
-<br/>
-<b>Expo</b>
-<br/>
-<sub>Development Platform</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://cryptologos.cc/logos/solana-sol-logo.svg?v=029" width="48" height="48"/>
-<br/>
-<b>Solana</b>
-<br/>
-<sub>Blockchain Network</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://www.typescriptlang.org/favicon-32x32.png" width="48" height="48"/>
-<br/>
-<b>TypeScript</b>
-<br/>
-<sub>Type Safety</sub>
-</td>
-</tr>
-</table>
+---
 
 ---
 
 <div align="center">
 
-<br/>
-
-### `Made with 💜 by Kalki`
-
-<br/>
+### Made with 💜 by Kalki
 
 **⭐ Star this repo if Nucleus powers your Solana journey**
-
-<br/>
 
 [![GitHub Stars](https://img.shields.io/github/stars/VINODvoid/nucleus?style=social)](https://github.com/VINODvoid/nucleus/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/VINODvoid/nucleus?style=social)](https://github.com/VINODvoid/nucleus/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/VINODvoid/nucleus)](https://github.com/VINODvoid/nucleus/issues)
 
-<br/>
-
 **[Report Bug](https://github.com/VINODvoid/nucleus/issues) • [Request Feature](https://github.com/VINODvoid/nucleus/issues) • [Join Discord](https://discord.gg/nucleus)**
-
-<br/>
 
 ---
 
-<sub>Built during the Solana Renaissance • Powered by caffeine and determination ☕</sub>
-
-<br/>
+*Built during the Solana Renaissance • Powered by caffeine and determination ☕*
 
 </div>
